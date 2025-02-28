@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder,LabelEncoder
 import pandas as pd
 import pickle
 import os
-os.chdir(r"C:\Users\Vikrant Vivek Deo\Documents\GEN-AI\Projects\ANN")
+#os.chdir(r"C:\Users\Vikrant Vivek Deo\Documents\GEN-AI\Projects\ANN")
 #Loading the trained model
 model=tf.keras.models.load_model("model.h5")
 
